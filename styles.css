@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: "Poppins", system-ui;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.menu-icono {
+    width: 75px;
+}
+
+.header {
+    background-image: linear-gradient(rgba(44, 40, 40, 0.7),
+            rgba(41, 36, 36, 0.7)),
+        url(imagenes/fondo\ 11.JPG);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.header-content .container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column-reverse
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #3d3b39;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 14px;
+    padding: 20px;
+    color: #cec4c4;
+    display: block;
+    font-weight: 600;
+    display: flex;
+}
+
+.menu .navbar ul li a:hover {
+    color: #ce967b
+}
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 75px;
+}
+
+.menu-label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 45px;
+    line-height: 60px;
+    color: #0c0c0c;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.header-content p {
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b;
+    color: #444647;
+    text-transform: uppercase;
+}
+
+.btn-1:hover {
+    background-color: #d8b29f;
+}
+
+.coffee {
+    padding: 100px 0;
+    background-color: #e1e2e6;
+    position: relative;
+}
+
+.coffee-content {
+    text-align: center;
+}
+
+.coffee-1 img {
+    width: 150px;
+}
+.coffee-img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 140px;
+}
+.coffe-1 p {
+
+    text-align: center;
+    font-size: 16px;
+    color: #292626;
+    padding: 0 200px;
+    margin-bottom: 25px;
+    align-items: center;
+}
+
+.coffee-1 h3 {
+    color: #0d0d0e;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.coffee-content h2 {
+    font-size: 45px;
+    line-height: 160px;
+    color: #323337;
+    text-transform: uppercase;  
+}
+.txt-p {
+    font-size: 16px;
+    color: #121213;  
+}
+
+
+.coffee-group {
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+@media(max-width:767px){ 
+.coffee-group {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+
+.services {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+            rgba(0, 0, 0, 0.7)),
+        url(imagenes/kafe.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 0;
+}
+.services-content {
+    text-align: center;
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;   
+}
+@media(max-with:767px){
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;   
+}
+}
+
+.services-1 img {
+    width: 60px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-position: center center;
+   justify-content: center;
+   
+}
+@media(max-with:767px){
+.services-1 img {
+    width: 60px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-position: center center;
+    justify-content: center;
+}
+}
+
+.general {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;  
+}
+@media(max-with:767px){
+.general {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px; 
+    background-position: center center; 
+    
+}
+}
+
+.general-1 {
+    width: 100%;
+    padding: 100px 250px 100px 100px;
+    background-color: #c3c5ca;
+}
+@media(max-with:767px){
+.general-1 {
+    width: 250%;
+    padding: 120px 220px 120px 210px;
+    background-color: #e1e2e6;
+}
+}
+
+.general-2 {
+    background-image: url(imagenes/pastel.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+@media(max-with:767px){
+    .general-2 {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 60%;
+}
+}
+
+.general-3 {
+    background-image: url(imagenes/wafle.JPG);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60%;
+}
+@media(max-with:767px){
+.general-3 {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+}
+}
+
+h2 {
+    font-size: 50px;
+    line-height: 70px;
+    color: #111213;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+@media(max-with:767px){-- comentario, me quede hasta aqui, revisar para hacerlo responsivo 
+h2 {
+    margin-bottom: 50px; 
+    text-transform: lowercase;
+    flex-direction: column;  
+    align-items: center;
+}
+}  comentario revisar esta seccion que es doonde no queda la parte responsiba
+
+
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
+.blog-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-direction: column-reverse
+
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 img {
+   
+    border-radius: 15px;
+    margin-bottom: 15px;
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 140px;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+
+.blog-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog-1 {
+    padding: 15px 55px;
+}
+
+
+.blog-1 h3 {
+    font-size: 25px;
+    color: #323337;
+}
+
+.footer {
+    padding: 100px 0;
+    background-color: #000000;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.link h3 {
+    font-size: 18px;
+    color: #333436;
+    margin-bottom: 15px;
+}
+
+.link a {
+    font-size: 16px;
+    color: #0e0d0d;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.iframe {
+    display: flex;
+
+}
